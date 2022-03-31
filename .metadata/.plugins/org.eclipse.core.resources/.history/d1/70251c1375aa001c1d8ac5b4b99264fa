@@ -1,0 +1,10 @@
+package sec2;
+
+public class whileEx1 {
+
+	public static void main(String[] args) {
+		//while(조건식) {반복수행문; 증감식}
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package sec2;
+
+public class NellEx1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//int a = null; 기본형은 null값을 가질 수 없다.
+		String b = null;
+	}
+
+}

@@ -1,0 +1,13 @@
+package sec1;
+
+public class SwichEx1 {
+
+	public static void main(String[] args) {
+		/*Swith(변수) {
+		 *	case 1:
+		 * 		실행문장;
+		 */
+
+	}
+
+}

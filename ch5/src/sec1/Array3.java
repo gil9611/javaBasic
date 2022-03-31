@@ -1,0 +1,57 @@
+package sec1;
+
+public class Array3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String[] names = {"김태균", "김효민", "신길호", "여승원", "이규진"};
+		//5명의 3과목 점수 선언
+		int[][] jum = {{100,80,90},{70,90,80},{60,90,80},{90,80,70},{85,95,85}};
+		
+		//전체총점hap 전체평균 py 과목총점tot 과목평균avg
+		int hap = 0;
+		float py = 0.0f;
+		int[] tot = new int[3];
+		float[] avg = new float[3];
+		
+		//결과
+		System.out.println("성명\t국어\t영어\t수학");
+		for(int i=0; i<names.length; i++) {
+			System.out.print(names[i]);
+			for (int j=0; j<3; j++) {
+				System.out.print("\t" +jum[i][j]);	//출력
+				tot[j] += jum[i][j];				//과목총점계산.
+				//hap += jum[i][j];
+			}
+			System.out.println("");
+			
+		}
+		
+		//과목평균 계산
+		for(int i=0; i<3; i++) {
+			avg[i] = (float)tot[i]/names.length;
+		}
+		
+		//총점 평균등 출력
+		System.out.println("***************************");
+		System.out.print("총점");
+		for(int i=0; i<3; i++) {
+			System.out.print("\t" +tot[i]);
+			hap +=tot[i];						//전체 총점
+		}
+		py = (float)hap/names.length/3;			//전체 평균
+		
+		
+		System.out.print("\n평균");
+		for(int i=0; i<3; i++) {
+			System.out.print("\t" +avg[i]);
+		}
+		
+		System.out.println("\n전체총점 : " +hap +" 전체평균 : " +py);
+
+		
+
+	}
+
+}
