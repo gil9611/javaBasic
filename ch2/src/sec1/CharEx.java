@@ -7,10 +7,10 @@ public class CharEx {
 		
 		char c1 = 'K';
 		char c2 = 'k';
-		char c3 = 67;	//¾Æ½ºÅ°ÄÚµå ¹øÈ£ ¹®ÀÚ°¡ ÀÔ·ÂµÊ.
+		char c3 = 67;	//ï¿½Æ½ï¿½Å°ï¿½Úµï¿½ ï¿½ï¿½È£ ï¿½ï¿½ï¿½Ú°ï¿½ ï¿½Ô·Âµï¿½.
 		byte c4 = 97;
-		char c5 = '±è';
-		char c6 = '\uac00'; // (¹é½½·¹½Ãu) À¯´ÏÄÚµå·Î »ç¿ë°¡´ÉÇÑ ¹®±¸
+		char c5 = 'h';
+		char c6 = '\uac00'; // (ï¿½é½½ï¿½ï¿½ï¿½ï¿½u) ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ ï¿½ï¿½ë°¡ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		
 		int uni1 = c1;
 		int uni2 = c5;
@@ -20,8 +20,8 @@ public class CharEx {
 		System.out.println("c4 = " +c4);
 		System.out.println("c5 = " +c5);
 		System.out.println("c6 = " +c6);
-		System.out.println("c1ÀÇ À¯´ÏÄÚµå¹øÈ£ : " +uni1);
-		System.out.println("c5ÀÇ À¯´ÏÄÚµå¹øÈ£ : " +uni2);
+		System.out.println("c1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½È£ : " +uni1);
+		System.out.println("c5ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½È£ : " +uni2);
 
 
 	}

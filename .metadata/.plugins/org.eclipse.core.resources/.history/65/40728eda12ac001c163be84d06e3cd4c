@@ -1,6 +1,0 @@
-package sec2;
-
-public enum Week {
-	//¿­°ÅÇü.
-	SUNDAY, MONDAY, TUESDAY, WEDNEDAY, THURSDAY, FRIDAY, SATERDAY
-}
