@@ -10,11 +10,11 @@ public class Animal {
 	
 	
 	//overloding
-	public Animal(){		//default가 기본.
+	Animal(){
 		
 	}
 	Animal(String name){
-		this(name, "동물친구들");
+		this(name, "포유류");
 	}
 	Animal(String name, String type){
 		this(name, type, 4);
@@ -39,13 +39,13 @@ public class Animal {
 	
 	//running
 	public void running(){
-		System.out.println("�룞臾쇱씠 �떖由쎈땲�떎.");
+		System.out.println("동물이 달립니다.");
 	}
 	public void running(String name){
-		System.out.println(name+"(�씠)媛� �떖由쎈땲�떎.");
+		System.out.println(name+"(이)가 달립니다.");
 	}
 	public void running(String name,int speed){
-		System.out.println(name+"(�씠)媛� " +speed +"km �냽�룄濡� �떖由쎈땲�떎.");
+		System.out.println(name+"(이)가 " +speed +"km 속도로 달립니다.");
 	}
 	
 	//get set

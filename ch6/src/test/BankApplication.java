@@ -110,7 +110,7 @@ public class BankApplication {
 		System.out.println("결과: 출금이 성공되었습니다.");
 	}
 	
-	private static Account findAccount(String ano) {		//Account ac = null;로 초기화를 해주고 return 값을 ac로 하자. 값이 null이면 못찿았다고 해야한다. 0이면 값이 나옴.
+	private static Account findAccount(String ano) {
 		int find = 0;
 		for(int i=0; i<accountArray.length; i++) {
 			if(accountArray[i].getAno().equals(ano)) {		//equals 꼭 기억하자
