@@ -22,4 +22,17 @@ public class DmbPhone extends CellPhone {
 		System.out.println("방송을 종료합니다.");
 	}
 	
+	//
+
+	public int getChannel() {
+		return channel;
+	}
+
+	public void setChannel(int channel) {
+		this.channel = channel;
+	}
+	
+	//
+	
+	
 }
