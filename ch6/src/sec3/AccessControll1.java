@@ -10,6 +10,9 @@ import sec1.Animal;
 class Data1{
 	int field1;
 }
+class Data2 {
+	int filed2;
+}
 
 public class AccessControll1 {
 

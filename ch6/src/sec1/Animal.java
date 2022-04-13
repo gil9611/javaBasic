@@ -10,7 +10,7 @@ public class Animal {
 	
 	
 	//overloding
-	Animal(){
+	public Animal(){
 		
 	}
 	Animal(String name){
